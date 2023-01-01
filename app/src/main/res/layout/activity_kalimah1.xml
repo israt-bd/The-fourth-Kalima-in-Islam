@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p2"
+    android:orientation="vertical"
+    tools:context=".kalimah1">
+
+    <LinearLayout
+        android:layout_width="212dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="341dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="164dp"
+            android:text="لآ اِلَهَ اِلّا اللّهُ مُحَمَّدٌ رَسُوُل اللّهِ"
+            android:textColor="#dfb070"
+            android:textStyle="bold"
+            android:textSize="34dp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="94dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="245dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transliteration:
+La ilaha illa-llah, Muhammadu-rasulu-llah
+Translation:
+There is no god but Allah, Muhammad(SAW) is the Messenger of Allah.
+উচ্চারণ : লা ইলাহা ইল্লাল্লাহ মুহাম্মাদুর রাসুলুল্লাহ |
+
+অর্থ : আল্লাহ ছাড়া অন্য কেউ উপাস্য নাই এবং হযরত মুহাম্মদ (Saw) তাঁর প্রেরিত রসূল |"
+
+                android:textColor="#dfb070"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints">
+
+            </TextView>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

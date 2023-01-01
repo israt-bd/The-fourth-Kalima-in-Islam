@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p2"
+    android:orientation="vertical"
+    tools:context=".kalimah1">
+
+    <LinearLayout
+        android:layout_width="212dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="341dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="164dp"
+            android:text="سُبْحَان اللهِ وَ الْحَمْدُ لِلّهِ وَ لآ اِلهَ اِلّا اللّهُ، وَ اللّهُ اَكْبَرُ وَلا حَوْلَ وَلاَ قُوَّة ِ الَّا بِاللّهِ الْعَلِىّ الْعَظِيْم"
+            android:textColor="#dfb070"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="94dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="245dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transliteration:
+Subhana-llahi, wa-l-hamdu li-llahi, wa la ilaha illa-llahu, wa-llahu akbar. Wa la hawla wa la quwwata illa bi-llahi-l-aliyyi-l-azeem
+Translation:
+Glory be to Allah and Praise to Allah, and there is no god but Allah, and Allah is the Greatest.
+And there is no Might or Power except with Allah, the Exalted, the Great one.
+উচ্চারণ : সুবহানআল্লাহি ওয়াল হামদু লিল্লাহি ওয়ালা ইলাহা ইল্লাল্লাহু ওয়াল্লাহু আকবার, ওয়ালা হাওলা ওয়ালা কুয়াতা ইল্লা বিল্লাহিল আলীইল আজিম |
+
+অর্থ : মহিমান্বিত আল্লাহর, সমস্ত প্রশংসা আল্লাহর | আল্লাহ ছাড়া কোন মাবুদ নাই | আল্লাহ মহান | সমস্ত প্বিত্রতা আল্লাহর সকল প্রশংসা আল্লাহর | আল্লাহ ছাড়া কোন শক্তি নাই, কোন ক্ষমতা নাই, তিনি সম্মানিত, তিনি মহান |
+"
+
+                android:textColor="#dfb070"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints">
+
+            </TextView>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

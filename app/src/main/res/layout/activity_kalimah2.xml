@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p2"
+    android:orientation="vertical"
+    tools:context=".kalimah1">
+
+    <LinearLayout
+        android:layout_width="212dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="341dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="164dp"
+            android:text="
+اشْهَدُ انْ لّآ اِلهَ اِلَّا اللّهُ وَ اَشْهَدُ اَنَّ مُحَمَّدً اعَبْدُه وَرَسُولُه
+ِ"
+            android:textColor="#dfb070"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="94dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="245dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transliteration:
+Ašhadu an la ilaha illa-llah, wa ašhadu anna Muhammadun Aabduhu wa rasuluh.
+Translation:
+I bear witness that there is no god but Allah, and I bear witness that Muhammad is a servant and a Messenger of Allah.
+ উচ্চারণ : আশহাদু আল লা-ইলাহা ইল্লাল্লাহু ওয়াহ্দাহু লা-শারিকালাহু ওয়াশহাদু আন্না মুহাম্মাদান আবদুহু ওয়া রাসুলুহু |
+
+অর্থ : আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ ছাড়া অন্য কেউ ইবাদতের উপযুক্ত না এবং আল্লাহর কোন অংশীদার নেই | আমি আরো সাক্ষ্য দিচ্ছি যে, হযরত মুহাম্মদ(সাঃ ) আল্লার শ্রেষ্ঠ বান্দা এবং আল্লাহ প্রেরিত রসূল |
+"
+
+                android:textColor="#dfb070"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints">
+
+            </TextView>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

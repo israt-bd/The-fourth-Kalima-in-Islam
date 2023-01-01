@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p2"
+    android:orientation="vertical"
+    tools:context=".kalimah1">
+
+    <LinearLayout
+        android:layout_width="212dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="341dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="212dp"
+            android:layout_height="164dp"
+            android:text="ل
+لا الهَ اِلَّا اللّهُ وَحْدَهُ لا شَرِيْكَ لَهْ، لَهُ الْمُلْكُ وَ لَهُ الْحَمْدُ يُحْى وَ يُمِيْتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلى كُلِّ شَئ ٍ قَدِيْرٌ
+"
+            android:textColor="#dfb070"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            >
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="94dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="245dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Transliteration:
+La ilaha illa-llahu wahdahu la šharika lahu lahu-l-mulku wa lahu-l-hamdu yuhyi wa yumitu biyadihi-l-khayr, wa huwa ala kulli šhayin qadir.
+Translation:
+There is no god but Allah. He is only One. He has no partners. For Him (is) the Kingdom. And for Him (is) the Praise. He gives life and causes death. In His hand (is) the goodness. And He has power over everything.
+উচ্চারণ : লা ইলাহা ইল্লাল্লাহু ওয়াহ্দাহু লা শারিকা লাহু, লাহুল মুলকু ওলাহুল হামদু উহয়ী ওয়া ইয়োমিতু ওয়া হুয়া হাইয়ুল লা ইয়ামুতু আবাদান আবাদা জুল জালালী ওয়াল ইকরাম বি ইয়াদিহিল খাইর ওয়া হুয়া আলা কুল্লি শাইয়িন কাদীর |
+
+অর্থ : আল্লাহ ব্যতীত কোন উপাস্য নেই | তিনি এক ও অদ্বিতীয় | তার কোন অংশীদার নেই | সকল ক্ষমতা এবং প্রশংসা তার জন্য | তিনি জীবন ও মৃত্যুর মালিক | তিনি চিরঞ্জীব, সকল সম্মানের মালিক | তার হাতেই সকল মঙ্গল সবকিছুর উপর তার ক্ষমতা রয়েছে |
+"
+
+                android:textColor="#dfb070"
+                android:textSize="20dp"
+                tools:ignore="MissingConstraints">
+
+            </TextView>
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
